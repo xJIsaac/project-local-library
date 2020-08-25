@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "directories": {
-    "test": "tests"
+    "test": "mocha tests"
   },
   "scripts": {
-    "start": "npx live-server public/"
+    "start": "live-server public/"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "live-server": "^1.2.1",
+    "mocha": "^8.1.1"
+  }
 }
