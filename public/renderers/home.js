@@ -15,7 +15,7 @@ function renderBooksBorrowed() {
 }
 
 function renderTotalAccounts() {
-  const count = totalNumberOfAccounts(accounts);
+  const count = totalAccountsCount(accounts);
   if (typeof count !== "number") return;
 
   const span = document.querySelector("#total-accounts-count");
