@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "live-server public/",
-    "test": "mocha tests"
+    "test": "mocha tests/*.test.js"
   },
   "keywords": [],
   "author": "",
