@@ -258,9 +258,6 @@ const books = [
         returned: true,
       },
       {
-        returned: true,
-      },
-      {
         id: "5f446f2ec32d71dabec35b06",
         returned: true,
       },
@@ -1228,9 +1225,6 @@ const books = [
     genre: "Psychology",
     authorId: 40,
     borrows: [
-      {
-        returned: true,
-      },
       {
         id: "5f446f2ea508b6a99c3e42c6",
         returned: true,
@@ -2332,9 +2326,6 @@ const books = [
         returned: true,
       },
       {
-        returned: true,
-      },
-      {
         id: "5f446f2e102899f8b6d2c20e",
         returned: true,
       },
@@ -2508,9 +2499,6 @@ const books = [
       },
       {
         id: "5f446f2e440d5fae3ef4c941",
-        returned: true,
-      },
-      {
         returned: true,
       },
       {
@@ -2986,9 +2974,6 @@ const books = [
         returned: true,
       },
       {
-        returned: true,
-      },
-      {
         id: "5f446f2e5e2952040e9f9b88",
         returned: true,
       },
@@ -3110,9 +3095,6 @@ const books = [
       },
       {
         id: "5f446f2eef419207c5fa4ec9",
-        returned: true,
-      },
-      {
         returned: true,
       },
       {
@@ -3250,9 +3232,6 @@ const books = [
       {
         id: "5f446f2ee5be00208a4481e0",
         returned: false,
-      },
-      {
-        returned: true,
       },
       {
         id: "5f446f2e102899f8b6d2c20e",
@@ -4813,9 +4792,6 @@ const books = [
         returned: true,
       },
       {
-        returned: true,
-      },
-      {
         id: "5f446f2efa2e5110917e5929",
         returned: true,
       },
@@ -5013,9 +4989,6 @@ const books = [
       },
       {
         id: "5f446f2ee734f727dfceefbd",
-        returned: true,
-      },
-      {
         returned: true,
       },
       {
@@ -5444,9 +5417,6 @@ const books = [
       },
       {
         id: "5f446f2e2a4fcd687493a775",
-        returned: true,
-      },
-      {
         returned: true,
       },
       {
@@ -6146,9 +6116,6 @@ const books = [
         returned: true,
       },
       {
-        returned: true,
-      },
-      {
         id: "5f446f2e6059326d9feb9a68",
         returned: true,
       },
@@ -6374,9 +6341,6 @@ const books = [
       },
       {
         id: "5f446f2e7a1be21e362b82f9",
-        returned: true,
-      },
-      {
         returned: true,
       },
     ],
@@ -6637,9 +6601,6 @@ const books = [
       },
       {
         id: "5f446f2ea6b68cf6f85f6e28",
-        returned: true,
-      },
-      {
         returned: true,
       },
       {
@@ -6916,9 +6877,6 @@ const books = [
       },
       {
         id: "5f446f2ecc5c4787c403f844",
-        returned: true,
-      },
-      {
         returned: true,
       },
       {
