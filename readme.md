@@ -6,16 +6,22 @@
 
 ![Home page for Local Library](./docs/images/home.png)
 
-This project is designed to test your ability to work with large datasets and build algorithms based on those datasets. Before taking on this module, you should be comfortable with the following:
+This project is designed to test your ability to work with large datasets and build algorithms based on those datasets. Before taking on this module, you should be comfortable with the learning objectives listed below. You will not need to make any edits to HTML or CSS for this project.
 
-- Installing packages via NPM.
-- Running tests from the command line.
-- Writing JavaScript functions.
-- Iterating through objects and arrays.
-- Using native array methods like `.reduce()`.
-- Debugging through reading errors and using the VSCode debugger.
+## Learning Objectives
 
-You will not need to make any edits to HTML or CSS for this project.
+This project will assess the following learning objectives, in addition to many others:
+
+- Use Visual Studio Code as a text editor.
+- Differentiate between the three most common JavaScript error types.
+- Solve bugs by using error messages.
+- Differentiate between `let`, `const`, and `var`, and use each appropriately.
+- Create an array from a string based on particular criteria and join arrays into strings.
+- Write strings that embed expressions using template literals.
+- Access all the values and keys of an object.
+- Use `.find()`, `.filter()`, `.map()`, `.some()`, and `.every()` to solve different problems.
+- Use `.reduce()` to solve different problems.
+- Use `.sort()` to sort arrays in various ways.
 
 ## Project Setup
 
