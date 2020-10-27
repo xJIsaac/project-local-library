@@ -3,7 +3,7 @@ module.exports = [
     id: "5f447132c30e8abe6c988a8b",
     title: "veniam voluptate magna ipsum officia",
     genre: "Historical Fiction",
-    authorId: 37,
+    authorId: "5f986058bb63a8becfaaca6c",
     borrows: [
       {
         id: "5f446f2ea6b68cf6f85f6e28",
@@ -19,7 +19,7 @@ module.exports = [
     id: "5f447132d487bd81da01e25e",
     title: "sit eiusmod occaecat eu magna",
     genre: "Science",
-    authorId: 8,
+    authorId: "5f98605836d56c4af56f7fcb",
     borrows: [
       {
         id: "5f446f2e2cfa3e1d234679b9",
@@ -71,7 +71,7 @@ module.exports = [
     id: "5f4471329627160be1e8ce92",
     title: "esse ea veniam non occaecat",
     genre: "Classics",
-    authorId: 10,
+    authorId: "5f9860582a1a67d711cf2b89",
     borrows: [
       {
         id: "5f446f2ed3609b719568a415",
@@ -95,7 +95,7 @@ module.exports = [
     id: "5f44713265e5d8d17789beb0",
     title: "tempor occaecat fugiat",
     genre: "Travel",
-    authorId: 16,
+    authorId: "5f986058f203ee023e385d56",
     borrows: [
       {
         id: "5f446f2e4eff1030e7316861",
@@ -111,7 +111,7 @@ module.exports = [
     id: "5f44713264bb872240dd62d0",
     title: "proident cupidatat fugiat aliquip do",
     genre: "Young Adult",
-    authorId: 20,
+    authorId: "5f98605873f0592ed03262e3",
     borrows: [
       {
         id: "5f446f2efa7fe184c4014dd2",
@@ -127,7 +127,7 @@ module.exports = [
     id: "5f447132a476ece080afa067",
     title: "ullamco est minim",
     genre: "Nonfiction",
-    authorId: 25,
+    authorId: "5f986058dcae6dd84fbb34a8",
     borrows: [
       {
         id: "5f446f2e189628dfd4e6225e",
@@ -155,7 +155,7 @@ module.exports = [
     id: "5f447132024bec2f2a94dedc",
     title: "ad incididunt magna",
     genre: "Classics",
-    authorId: 38,
+    authorId: "5f98605831102c5d8cb363a8",
     borrows: [
       {
         id: "5f446f2eae901a82e0259947",
@@ -167,7 +167,7 @@ module.exports = [
     id: "5f4471328ea4e12c67d5f691",
     title: "eiusmod pariatur Lorem ipsum consectetur",
     genre: "Science",
-    authorId: 32,
+    authorId: "5f986058d55b9116c7c80ea2",
     borrows: [
       {
         id: "5f446f2ec56b2fa77d5545ef",
@@ -187,7 +187,7 @@ module.exports = [
     id: "5f4471327864ee880caf5afc",
     title: "reprehenderit quis laboris adipisicing et",
     genre: "Science",
-    authorId: 20,
+    authorId: "5f98605873f0592ed03262e3",
     borrows: [
       {
         id: "5f446f2e2a4fcd687493a775",

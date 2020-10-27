@@ -3,7 +3,7 @@ const books = [
     id: "5f447132d487bd81da01e25e",
     title: "sit eiusmod occaecat eu magna",
     genre: "Science",
-    authorId: 8,
+    authorId: "5f98605836d56c4af56f7fcb",
     borrows: [
       {
         id: "5f446f2e2cfa3e1d234679b9",
@@ -111,7 +111,7 @@ const books = [
     id: "5f4471329627160be1e8ce92",
     title: "esse ea veniam non occaecat",
     genre: "Classics",
-    authorId: 10,
+    authorId: "5f9860582a1a67d711cf2b89",
     borrows: [
       {
         id: "5f446f2ed3609b719568a415",
@@ -175,7 +175,7 @@ const books = [
     id: "5f44713265e5d8d17789beb0",
     title: "tempor occaecat fugiat",
     genre: "Travel",
-    authorId: 16,
+    authorId: "5f986058f203ee023e385d56",
     borrows: [
       {
         id: "5f446f2e4eff1030e7316861",
@@ -219,7 +219,7 @@ const books = [
     id: "5f44713264bb872240dd62d0",
     title: "proident cupidatat fugiat aliquip do",
     genre: "Young Adult",
-    authorId: 20,
+    authorId: "5f98605873f0592ed03262e3",
     borrows: [
       {
         id: "5f446f2efa7fe184c4014dd2",
@@ -331,7 +331,7 @@ const books = [
     id: "5f447132a476ece080afa067",
     title: "ullamco est minim",
     genre: "Nonfiction",
-    authorId: 25,
+    authorId: "5f986058dcae6dd84fbb34a8",
     borrows: [
       {
         id: "5f446f2e189628dfd4e6225e",
@@ -455,7 +455,7 @@ const books = [
     id: "5f447132024bec2f2a94dedc",
     title: "ad incididunt magna",
     genre: "Fantasy",
-    authorId: 38,
+    authorId: "5f98605831102c5d8cb363a8",
     borrows: [
       {
         id: "5f446f2eae901a82e0259947",
@@ -579,7 +579,7 @@ const books = [
     id: "5f4471328ea4e12c67d5f691",
     title: "eiusmod pariatur Lorem ipsum consectetur",
     genre: "Comics",
-    authorId: 32,
+    authorId: "5f986058d55b9116c7c80ea2",
     borrows: [
       {
         id: "5f446f2ec56b2fa77d5545ef",
@@ -695,7 +695,7 @@ const books = [
     id: "5f4471327864ee880caf5afc",
     title: "reprehenderit quis laboris adipisicing et",
     genre: "Poetry",
-    authorId: 20,
+    authorId: "5f98605873f0592ed03262e3",
     borrows: [
       {
         id: "5f446f2e2a4fcd687493a775",
@@ -867,7 +867,7 @@ const books = [
     id: "5f44713245a57860eea8cff9",
     title: "proident ad excepteur",
     genre: "Poetry",
-    authorId: 37,
+    authorId: "5f986058bb63a8becfaaca6c",
     borrows: [
       {
         id: "5f446f2edc76a41729492d41",
@@ -1483,7 +1483,7 @@ const books = [
     id: "5f4471321b324af1d44816de",
     title: "incididunt officia amet nulla",
     genre: "Memoir",
-    authorId: 25,
+    authorId: "5f986058dcae6dd84fbb34a8",
     borrows: [
       {
         id: "5f446f2ec32d71dabec35b06",
@@ -2719,7 +2719,7 @@ const books = [
     id: "5f447132390aee45a097ab58",
     title: "dolore in labore",
     genre: "Biography",
-    authorId: 8,
+    authorId: "5f98605836d56c4af56f7fcb",
     borrows: [
       {
         id: "5f446f2ef3942f4e607e47e2",
@@ -3111,7 +3111,7 @@ const books = [
     id: "5f447132bd3624c866d92243",
     title: "fugiat ea voluptate consequat ipsum",
     genre: "Art",
-    authorId: 32,
+    authorId: "5f986058d55b9116c7c80ea2",
     borrows: [
       {
         id: "5f446f2ef2ab5f5a9f60c4f2",
@@ -3431,7 +3431,7 @@ const books = [
     id: "5f447132d05f85a604162b68",
     title: "qui dolore elit veniam",
     genre: "Art",
-    authorId: 37,
+    authorId: "5f986058bb63a8becfaaca6c",
     borrows: [
       {
         id: "5f446f2e409f8883af2955dd",
@@ -3499,7 +3499,7 @@ const books = [
     id: "5f447132f18ba1e51e6332cf",
     title: "esse nulla mollit",
     genre: "Fiction",
-    authorId: 37,
+    authorId: "5f986058bb63a8becfaaca6c",
     borrows: [
       {
         id: "5f446f2ed92454081fb1999b",
@@ -3555,7 +3555,7 @@ const books = [
     id: "5f4471321db144e328b8a6e0",
     title: "culpa est do mollit ut",
     genre: "Young Adult",
-    authorId: 25,
+    authorId: "5f986058dcae6dd84fbb34a8",
     borrows: [
       {
         id: "5f446f2ed46724f41c9fc431",
@@ -4150,7 +4150,7 @@ const books = [
     id: "5f447132e8619ec96b81e80c",
     title: "veniam aute culpa officia incididunt",
     genre: "Comics",
-    authorId: 8,
+    authorId: "5f98605836d56c4af56f7fcb",
     borrows: [
       {
         id: "5f446f2eed18105706d6ca19",
@@ -4401,7 +4401,7 @@ const books = [
     id: "5f44713215ddc114aa68bc65",
     title: "dolor do exercitation sit",
     genre: "Thriller",
-    authorId: 37,
+    authorId: "5f986058bb63a8becfaaca6c",
     borrows: [
       {
         id: "5f446f2ed9aac23c0340aab2",
@@ -5021,7 +5021,7 @@ const books = [
     id: "5f4471323500c35b1a8d9535",
     title: "minim mollit veniam",
     genre: "Cookbooks",
-    authorId: 37,
+    authorId: "5f986058bb63a8becfaaca6c",
     borrows: [
       {
         id: "5f446f2e22469f38e4455c73",
@@ -5213,7 +5213,7 @@ const books = [
     id: "5f447132c8ae46c7de530a3d",
     title: "ad laboris id",
     genre: "Classics",
-    authorId: 8,
+    authorId: "5f98605836d56c4af56f7fcb",
     borrows: [
       {
         id: "5f446f2e5e2952040e9f9b88",
@@ -5405,7 +5405,7 @@ const books = [
     id: "5f4471324617634315012c21",
     title: "dolor tempor amet ea",
     genre: "Fiction",
-    authorId: 10,
+    authorId: "5f9860582a1a67d711cf2b89",
     borrows: [
       {
         id: "5f446f2e5e2952040e9f9b88",
@@ -5773,7 +5773,7 @@ const books = [
     id: "5f4471325d638fae68285403",
     title: "officia Lorem qui aliquip est",
     genre: "Memoir",
-    authorId: 10,
+    authorId: "5f9860582a1a67d711cf2b89",
     borrows: [
       {
         id: "5f446f2ef795e593cd3cd19d",
@@ -6133,7 +6133,7 @@ const books = [
     id: "5f44713277b1ab9e64ceffb8",
     title: "excepteur cupidatat sit",
     genre: "Poetry",
-    authorId: 10,
+    authorId: "5f9860582a1a67d711cf2b89",
     borrows: [
       {
         id: "5f446f2e0f8e52a3ee861543",
@@ -6545,7 +6545,7 @@ const books = [
     id: "5f4471321d09e20ce99e2448",
     title: "sunt dolore duis veniam",
     genre: "Psychology",
-    authorId: 32,
+    authorId: "5f986058d55b9116c7c80ea2",
     borrows: [
       {
         id: "5f446f2ed46724f41c9fc431",
@@ -6713,7 +6713,7 @@ const books = [
     id: "5f447132a91e572d0877a2fb",
     title: "anim labore non adipisicing",
     genre: "Romance",
-    authorId: 10,
+    authorId: "5f9860582a1a67d711cf2b89",
     borrows: [
       {
         id: "5f446f2ec926a2ac98231a64",
@@ -6925,7 +6925,7 @@ const books = [
     id: "5f447132c30e8abe6c988a8b",
     title: "veniam voluptate magna ipsum officia",
     genre: "Historical Fiction",
-    authorId: 37,
+    authorId: "5f986058bb63a8becfaaca6c",
     borrows: [
       {
         id: "5f446f2ea6b68cf6f85f6e28",

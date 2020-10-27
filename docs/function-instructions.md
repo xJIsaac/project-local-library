@@ -193,7 +193,7 @@ partitionBooksByBorrowedStatus(books);
         id: "5f447132d487bd81da01e25e",
         title: "sit eiusmod occaecat eu magna",
         genre: "Science",
-        authorId: 8,
+        authorId: "5f98605836d56c4af56f7fcb",
         borrows: [
           {
             id: "5f446f2e2cfa3e1d234679b9",
@@ -209,7 +209,7 @@ partitionBooksByBorrowedStatus(books);
         id: "5f44713265e5d8d17789beb0",
         title: "tempor occaecat fugiat",
         genre: "Travel",
-        authorId: 16,
+        authorId: "5f986058f203ee023e385d56",
         borrows: [
           {
             id: "5f446f2e4eff1030e7316861",
