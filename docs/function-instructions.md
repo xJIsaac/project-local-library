@@ -80,9 +80,9 @@ It returns a _number_ that represents the number of times the account's ID has a
 numberOfBorrows(account, books); // 22
 ```
 
-#### booksInPossession()
+#### getBooksPossessedByAccount()
 
-The `booksInPossession()` function in `public/src/accounts.js` has three parameters, in the following order:
+The `getBooksPossessedByAccount()` function in `public/src/accounts.js` has three parameters, in the following order:
 
 - An account object.
 - An array of all books objects.
@@ -93,7 +93,7 @@ It returns an array of books and authors that represents all books _currently ch
 **Example:**
 
 ```javascript
-booksInPossession(account, books, authors);
+getBooksPossessedByAccount(account, books, authors);
 /*
   [
     {
@@ -317,9 +317,9 @@ It returns a number that represents the number of books _that have been taken ou
 booksBorrowedCount(accounts); // 65
 ```
 
-### mostCommonGenres()
+### getMostCommonGenres()
 
-The `mostCommonGenres()` function in `public/src/home.js` has a single parameter:
+The `getMostCommonGenres()` function in `public/src/home.js` has a single parameter:
 
 - An array of books.
 
@@ -335,7 +335,7 @@ If more than five genres are present, only the top five should be returned.
 **Example:**
 
 ```javascript
-mostCommonGenres(books);
+getMostCommonGenres(books);
 /*
   [
     { name: "Nonfiction", count: 9 },
@@ -346,9 +346,9 @@ mostCommonGenres(books);
 */
 ```
 
-### mostPopularBooks()
+### getMostPopularBooks()
 
-The `mostPopularBooks()` function in `public/src/home.js` has a single parameter:
+The `getMostPopularBooks()` function in `public/src/home.js` has a single parameter:
 
 - An array of books.
 
@@ -364,7 +364,7 @@ If more than five books are present, only the top five should be returned.
 **Example:**
 
 ```javascript
-mostPopularBooks(books);
+getMostPopularBooks(books);
 /*
   [
     { name: "incididunt nostrud minim", count: 30 },
@@ -375,9 +375,9 @@ mostPopularBooks(books);
 */
 ```
 
-### mostPopularAuthors()
+### getMostPopularAuthors()
 
-The `mostPopularAuthors()` function in `public/src/home.js` has two parameters, in the following order:
+The `getMostPopularAuthors()` function in `public/src/home.js` has two parameters, in the following order:
 
 - An array of books.
 - An array of authors.
@@ -394,7 +394,7 @@ If more than five authors are present, only the top five should be returned.
 **Example:**
 
 ```javascript
-mostPopularAuthors(books, authors);
+getMostPopularAuthors(books, authors);
 /*
   [
     { name: "Cristina Buchanan", count: 112 },
