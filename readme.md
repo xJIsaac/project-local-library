@@ -52,9 +52,11 @@ All of the files you need to edit are inside of the `public/src/` directory.
 
 While working on this project you _should:_
 
-- Use well-named variables.
-- Use native array methods.
+- Use well-named variables, in particular avoiding any single letter variables that lack meaning.
+- Use native array methods like `.find()`, `.filter()`, `.map()`, and `.reduce()`.
+- Make use of both function declarations and arrow functions.
 - Build helper functions when appropriate.
+- Make use of advanced JavaScript features like ternary operators, the spread operator, object shorthand, array and object destructuring, and `for/in` loops.
 
 While working on this project you _should not:_
 
