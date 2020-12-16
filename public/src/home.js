@@ -4,17 +4,17 @@ function totalAccountsCount(accounts) {}
 
 function booksBorrowedCount(books) {}
 
-function mostCommonGenres(books) {}
+function getMostCommonGenres(books) {}
 
-function mostPopularBooks(books) {}
+function getMostPopularBooks(books) {}
 
-function mostPopularAuthors(books, authors) {}
+function getMostPopularAuthors(books, authors) {}
 
 module.exports = {
   totalBooksCount,
   totalAccountsCount,
   booksBorrowedCount,
-  mostCommonGenres,
-  mostPopularBooks,
-  mostPopularAuthors,
+  getMostCommonGenres,
+  getMostPopularBooks,
+  getMostPopularAuthors,
 };
