@@ -8,7 +8,11 @@ function sortAccountsByLastName(accounts) {
   )
 }
 
-function numberOfBorrows(account, books) {}
+function numberOfBorrows({ id }, books) {
+  return books.reduce((acc, book) => {
+    return acc += book.borrows.filter(borrow => borrow.id == id).length
+  }, 0)
+}
 
 function getBooksPossessedByAccount(account, books, authors) {}
 
