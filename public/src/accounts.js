@@ -1,4 +1,6 @@
-function findAccountById(accounts, id) {}
+function findAccountById(accounts, id) {
+  
+}
 
 function sortAccountsByLastName(accounts) {}
 
