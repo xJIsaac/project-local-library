@@ -6,7 +6,14 @@ function findBookById(books, id) {
   return books.find(book => book.id == id)
 }
 
-function partitionBooksByBorrowedStatus(books) {}
+function partitionBooksByBorrowedStatus(books) {
+  const loanedOut = []
+  const returned = []
+  books.forEach( book => {
+    book.borrows[0].returned == false ? loanedOut.push(book) : returned.push(book)
+  })
+  return [loanedOut, returned]
+}
 
 function getBorrowersForBook(book, accounts) {}
 
