@@ -14,7 +14,16 @@ function numberOfBorrows({ id }, books) {
   }, 0)
 }
 
-function getBooksPossessedByAccount(account, books, authors) {}
+function getBooksPossessedByAccount({id}, books, authors) {
+  return books.filter( book => {
+    return book.borrows.some(borrowRecord => {
+      if (borrowRecord.id == id && borrowRecord.returned == false) {
+        book.author = authors.find( author => author.id == book.authorId)
+        return true
+      }
+    })
+  })
+}
 
 module.exports = {
   findAccountById,
