@@ -1,7 +1,3 @@
-const {
-  findAccountById,
-} = require("./accounts.js");
-
 function findAuthorById(authors, id) {
   return authors.find(author => author.id == id)
 }
@@ -19,27 +15,7 @@ function partitionBooksByBorrowedStatus(books) {
   return [loanedOut, returned]
 }
 
-function getBorrowersForBook(book, accounts) {
-  return book.borrows.map( borrowRecord => {
-    const {
-      picture,
-      age,
-      name,
-      company,
-      email,
-      registered,
-    } = findAccountById(accounts, borrowRecord.id)
-    return {
-      id: borrowRecord.id,
-      picture: picture,
-      age: age,
-      name: name,
-      company: company,
-      email: email,
-      registered: registered,
-    }
-  }).slice(0,10)
-}
+function getBorrowersForBook(book, accounts) {}
 
 module.exports = {
   findAuthorById,
