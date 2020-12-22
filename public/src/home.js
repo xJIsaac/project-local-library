@@ -1,3 +1,7 @@
+const {
+  findAuthorById,
+} = require("./books.js");
+
 function totalBooksCount(books) {
   return books.length
 }
@@ -23,9 +27,17 @@ function getMostPopularBooks(books) {
   return sortAndGiveTopFive(result)
 }
 
-function getMostPopularBooks(books) {}
-
-function getMostPopularAuthors(books, authors) {}
+function getMostPopularAuthors(books, authors) {
+  const result = books.reduce((acc, book) => {
+    const {name: {first, last}} = findAuthorById(authors, book.authorId)
+    acc.push({
+      name: `${first} ${last}`,
+      count: book.borrows.length
+    })
+    return acc;
+  }, [])
+  return sortAndGiveTopFive(result)
+}
 
 module.exports = {
   totalBooksCount,
