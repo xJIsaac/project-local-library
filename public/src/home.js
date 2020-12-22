@@ -14,10 +14,10 @@ function sortAndGiveTopFive(array) {
 }
 
 function getMostCommonGenres(books) {
+function getMostPopularBooks(books) {
   const result = books.reduce((acc, book) => {
-    const thisGenre = {name: book.genre, count: 1}
-    const existingGenre = acc.find( genre => genre.name == thisGenre.name)
-    existingGenre ? existingGenre.count++ : acc.push(thisGenre)
+    const newObj = {name: book["title"], count: book.borrows.length}
+    acc.push(newObj)
     return acc;
   }, [])
   return sortAndGiveTopFive(result)
