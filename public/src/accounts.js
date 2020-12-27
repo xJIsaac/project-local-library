@@ -1,28 +1,31 @@
 function findAccountById(accounts, id) {
-  return accounts.find( acct => acct.id == id)
+  return accounts.find((acct) => acct.id === id);
 }
 
 function sortAccountsByLastName(accounts) {
-  return accounts.sort((acctA, acctB) => 
-    acctA.name.last.toLowerCase() > acctB.name.last.toLowerCase() ? 1 : -1
-  )
+  return accounts.sort((acctA, acctB) => {
+    const lastNameA = acctA.name.last.toLowerCase();
+    const lastNameB = acctB.name.last.toLowerCase();
+    return lastNameA > lastNameB ? 1 : -1;
+  });
 }
 
 function numberOfBorrows({ id }, books) {
   return books.reduce((acc, book) => {
-    return acc += book.borrows.filter(borrow => borrow.id == id).length
-  }, 0)
+    const matchingBorrowsCount = book.borrows.filter((borrow) => borrow.id === id).length;
+    return acc + matchingBorrowsCount;
+  }, 0);
 }
 
-function getBooksPossessedByAccount({id}, books, authors) {
-  return books.filter( book => {
-    return book.borrows.some(borrowRecord => {
-      if (borrowRecord.id == id && borrowRecord.returned == false) {
-        book.author = authors.find( author => author.id == book.authorId)
-        return true
-      }
-    })
-  })
+function getBooksPossessedByAccount({ id }, books, authors) {
+  return books.filter((book) => {
+    const lastborrow = book.borrows[0];
+    return lastborrow.id === id && lastborrow.returned === false;
+  }).map((book) => {
+    const thisBook = book;
+    thisBook.author = authors.find((author) => author.id === thisBook.authorId);
+    return book;
+  });
 }
 
 module.exports = {
